@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background: url(/bg.png) no-repeat fixed center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin:0;
+	overglow:hidden;
+}
+
+#construction {
+	position:absolute;
+	
+	width: 40%;
+	left: 10%;
+	top: 20%;
+	
+	background: rgba(255,255,255,0.9);
+	font: normal normal 8pt/1.5em Lucida Console, Monaco, Courier, monospace;
+	letter-spacing: .1em;
+	padding: 50px;
+	border: 1px solid #666;
+	
+	-webkit-transition:opacity .25s ease-in-out;  
+   	-moz-transition:opacity .25s ease-in-out;  
+   	-o-transition:opacity .25s ease-in-out;  
+   	transition:opacity .25s ease-in-out;
+}
+
+a { color: #f00;
+	font: normal normal 8pt/1.5em Lucida Console, Monaco, Courier, monospace;
+	text-decoration: none;
+	-webkit-transition:color .25s ease-in-out;  
+   	-moz-transition:color .25s ease-in-out;  
+   	-o-transition:color .25s ease-in-out;  
+   	transition:color .25s ease-in-out; }
+
+a:hover { color: #00f; }
+
+#construction:hover {
+	background: rgba(255,255,255,1);
+	border: 1px solid #000;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+ 	color: #999;
+ 	text-align: center;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+ 	color: #999	;
+ 	text-align: center;
+}
+input:focus::-webkit-input-placeholder { opacity: 0.7; }
+input:focus:-moz-placeholder { opacity: 0.7; }
+
+input {
+	background: rgba(255,255,255,0);
+	font: normal normal 7pt/2em Lucida Console, Monaco, Courier, monospace;
+	letter-spacing: .2em;
+	padding: .5em 4em;
+	margin-right: 8em;
+}

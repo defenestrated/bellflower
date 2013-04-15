@@ -1,0 +1,1 @@
+[03-Nov-2012 17:51:55] PHP Warning:  mysql_result() [<a href='function.mysql-result'>function.mysql-result</a>]: Unable to jump to row 0 on MySQL result index 2 in /home7/samgalis/public_html/bellflowerproject/php/subscribe.php on line 30
